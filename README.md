@@ -1,3 +1,4 @@
+- git clone https://github.com/keedya/rackHD-micro-docker.git docker
 - cd docker
 - sudo docker build -t rackhd/micro .
 - sudo docker save rackhd/micro | xz -z > micro.tar.xz
